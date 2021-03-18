@@ -303,7 +303,9 @@ PRODUCT_PACKAGES += \
     libOmxSwVencHevc \
     libOmxVdec \
     libOmxVenc \
-    libstagefrighthw
+    libstagefrighthw \
+    libavservices_minijail \
+    libavservices_minijail.vendor
 
 # Power
 PRODUCT_PACKAGES += \
