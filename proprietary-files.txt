@@ -85,8 +85,8 @@ vendor/etc/acdbdata/QRD/msm8953-sku4-snd-card/QRD_SKU4_Speaker_cal.acdb|1a936249
 vendor/etc/acdbdata/QRD/msm8953-sku4-snd-card/QRD_SKU4_workspaceFile.qwsp|2a4c5a4dd0771a4df95069b8b7c45e54040e9518
 
 # Audio dirac - from xiaomi
-lib/soundfx/libdirac.so|f63826a905b520fa524e4c1b147be7cf65240953
-lib/libDiracAPI_SHARED.so|42b49679d38eca93fead05ea06ddbdc8108fd4b1
+vendor/lib/soundfx/libdirac.so|f63826a905b520fa524e4c1b147be7cf65240953
+vendor/lib/libDiracAPI_SHARED.so|42b49679d38eca93fead05ea06ddbdc8108fd4b1
 vendor/etc/diracmobile.config|d781cd6798a7481a8f7128d144abfb2b8794212d
 
 # ANT+ (vendor) - from LA.UM.8.6.2.r1-03700-89xx.0
