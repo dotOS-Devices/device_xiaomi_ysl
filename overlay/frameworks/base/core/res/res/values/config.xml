@@ -525,7 +525,10 @@
 
     <!-- Whether to allow sending active app broadcast -->
     <bool name="config_allowActivePackageBroadcast">true</bool>
-
+    
+    <!-- Should we vibrate on an icon animation of the shelf. This should only be active if the vibrator is capable of subtle vibrations -->
+      <bool name="config_vibrateOnIconAnimation">true</bool>
+   
     <!-- Configuration to enable non-default PDP during IWLAN -->
     <bool name="config_feature_iwlan_enabled">true</bool>
 
