@@ -1,0 +1,11 @@
+[
+
+  {
+    "repository" : "android_kernel_xiaomi_ysl",
+    "target_path": "kernel/xiaomi/ysl"
+  },
+  {
+    "repository" : "android_vendor_xiaomi_ysl",
+    "target_path": "vendor/xiaomi/ysl"
+  }
+]
