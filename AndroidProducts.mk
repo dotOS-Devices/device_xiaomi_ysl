@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ssos_ysl.mk
+    $(LOCAL_DIR)/dot_ysl.mk
 
 COMMON_LUNCH_CHOICES := \
-    ssos_ysl-user \
-    ssos_ysl-userdebug \
-    ssos_ysl-eng
+    dot_ysl-user \
+    dot_ysl-userdebug \
+    dot_ysl-eng
