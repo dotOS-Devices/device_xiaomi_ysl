@@ -107,6 +107,31 @@ persist.vendor.dpmhalservice.enable=1
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.debug.coresight.config=stm-events
 
+# Venom
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.surface_flinger.running_without_sync_framework=true
+
+# DHA Tunning
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.config.dha_tunnable=1
+
+# SystemUI
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.config.fha_enable=true \
+ro.sys.fw.bg_apps_limit=32 \
+ro.config.dha_cached_max=16 \
+ro.config.dha_empty_max=42 \
+ro.config.dha_empty_init=32 \
+ro.config.dha_lmk_scale=0.545 \
+ro.config.dha_th_rate=2.3 \
+ro.config.sdha_apps_bg_max=64 \
+ro.config.sdha_apps_bg_min=8
+
+# Smoothens UI
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.service.lgospd.enable=0 \
+persist.service.pcsync.enable=0
+
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
 debug.egl.hw=0 \
