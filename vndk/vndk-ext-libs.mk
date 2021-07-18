@@ -5,7 +5,6 @@ EXTRA_VENDOR_LIBRARIES := \
     libaudioclient \
     libaudiomanager \
     libaudiopolicy \
-    libbinder \
     libbufferhub \
     libbufferhubqueue \
     libcamera_client \
