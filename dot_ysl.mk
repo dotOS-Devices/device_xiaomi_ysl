@@ -33,6 +33,7 @@ $(call inherit-product, vendor/dot/config/common.mk)
 # Inherit some common dot flags
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_BOOT_ANIMATION_RES := 720
+TARGET_INCLUDE_PIXEL_CHARGER := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ysl
